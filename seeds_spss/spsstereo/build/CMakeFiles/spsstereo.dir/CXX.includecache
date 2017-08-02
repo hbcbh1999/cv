@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sanyu/spsstereo/SGM_example/spsstereo/SGMStereo.h
+png++/png.hpp
+-
+
+/home/sanyu/spsstereo/SGM_example/spsstereo/SPSStereo.cpp
+SPSStereo.h
+/home/sanyu/spsstereo/SGM_example/spsstereo/SPSStereo.h
+cmath
+-
+algorithm
+-
+stdexcept
+-
+float.h
+-
+SGMStereo.h
+/home/sanyu/spsstereo/SGM_example/spsstereo/SGMStereo.h
+
+/home/sanyu/spsstereo/SGM_example/spsstereo/SPSStereo.h
+vector
+-
+stack
+-
+png++/png.hpp
+-
+
